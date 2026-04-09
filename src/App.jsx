@@ -284,7 +284,7 @@ Sé realista. Score entre 3.8 y 4.7. Reviews entre 40 y 300. Urgency: "baja", "m
       {/* HERO */}
       {step === "hero" && (
         <div style={s.hero}>
-          <div style={s.badge}><span>★</span><span>Análisis gratuito en 30 segundos</span></div>
+          <div style={s.badge}><span>★</span><span>Diagnóstico gratuito · Basado en IA</span></div>
           <h1 style={s.h1}>
             ¿Apareces cuando<br />
             <span style={s.h1Accent}>ChatGPT recomienda</span><br />
@@ -295,7 +295,7 @@ Sé realista. Score entre 3.8 y 4.7. Reviews entre 40 y 300. Urgency: "baja", "m
           </p>
           <div style={s.card}>
             <div style={{ fontSize:"13px", color:"#6B7280", marginBottom:"16px", fontWeight:"600", letterSpacing:"0.05em", textTransform:"uppercase", textAlign:"left" }}>
-              Analiza tu negocio gratis
+              Recibe gratis tu diagnóstico de reputación online
             </div>
             <input style={s.input} placeholder="Nombre de tu restaurante"
               value={restaurantName} onChange={e => setRestaurantName(e.target.value)}
@@ -430,7 +430,7 @@ Sé realista. Score entre 3.8 y 4.7. Reviews entre 40 y 300. Urgency: "baja", "m
               ¿Quieres que lo arreglemos por ti?
             </div>
             <div style={{ fontSize:"14px", color:"#6B7280", marginBottom:"24px" }}>
-              Recibe el plan de acción completo para <strong style={{ color:"#E8EDF5" }}>{restaurantName}</strong> en tu email
+              Nuestro equipo analizará tu perfil de Google y te enviará un plan de acción personalizado para <strong style={{ color:"#E8EDF5" }}>{restaurantName}</strong> en tu email
             </div>
             {!leadSent ? (
               <div style={{ maxWidth:"400px", margin:"0 auto" }}>
