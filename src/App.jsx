@@ -98,7 +98,7 @@ export default function App() {
       {/* NAV */}
       <nav style={{ position:"relative", zIndex:10, padding:"24px 40px", display:"flex", justifyContent:"space-between", alignItems:"center", borderBottom:"1px solid rgba(255,255,255,0.04)" }}>
         <div style={{ fontFamily:"'Fraunces', Georgia, serif", fontSize:"18px", fontWeight:"800", letterSpacing:"-0.02em" }}>
-          Gestión<span style={{ color:"#F5C842" }}>Reseñas</span>.com
+          Gestiónde<span style={{ color:"#F5C842" }}>Reseñas</span>.com
         </div>
         <div style={{ fontSize:"12px", color:"#4B5563", letterSpacing:"0.08em", textTransform:"uppercase" }}>
           Reputación digital para negocios
