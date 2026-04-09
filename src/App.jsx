@@ -275,7 +275,7 @@ export default function App() {
                 con tu posición real en Google y las recomendaciones para mejorarla.
               </p>
               <div style={{ marginTop:"28px", fontSize:"13px", color:"#4B5563" }}>
-                ¿Tienes dudas? Escríbenos a <span style={{ color:"#F5C842" }}>hola@gestionresenas.com</span>
+                ¿Tienes dudas? Escríbenos a <span style={{ color:"#F5C842" }}>hola@gestionreseñas.com</span>
               </div>
             </div>
           )}
@@ -288,7 +288,7 @@ export default function App() {
           Gestión<span style={{ color:"#F5C842" }}>Reseñas</span>.com
         </div>
         <div style={{ fontSize:"12px", color:"#374151" }}>
-          © 2026 · GestiónReseñas.com · hola@gestionresenas.com
+          © 2026 · GestióndeReseñas.com · hola@gestionreseñas.com
         </div>
       </footer>
     </div>
