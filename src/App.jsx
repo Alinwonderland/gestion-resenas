@@ -285,10 +285,10 @@ export default function App() {
       {/* FOOTER */}
       <footer style={{ position:"relative", zIndex:10, borderTop:"1px solid rgba(255,255,255,0.04)", padding:"32px 40px", display:"flex", justifyContent:"space-between", alignItems:"center", flexWrap:"wrap", gap:"16px" }}>
         <div style={{ fontFamily:"'Fraunces', Georgia, serif", fontSize:"15px", fontWeight:"800" }}>
-          Gestión<span style={{ color:"#F5C842" }}>Reseñas</span>.com
+          Gestiónde<span style={{ color:"#F5C842" }}>Reseñas</span>.com
         </div>
         <div style={{ fontSize:"12px", color:"#374151" }}>
-          © 2026 · GestióndeReseñas.com · hola@gestionreseñas.com
+          © 2026 · GestióndeReseñas.com · hola@gestiondereseñas.com
         </div>
       </footer>
     </div>
