@@ -57,11 +57,19 @@ export default function App() {
   const [factsRef, factsIn] = useInView(0.1);
   const [formRef, formIn] = useInView(0.1);
 
-  const handleSubmit = () => {
-    if (!name || !business || !city || !email) return;
-    setSending(true);
-    setTimeout(() => { setSending(false); setSent(true); }, 1200);
-  };
+const handleSubmit = async () => {
+  if (!name || !business || !city || !email) return;
+  setSending(true);
+  try {
+    await fetch("https://hook.eu1.make.com/brrpywh856dt36b3db6ikghf4z7d4cq1", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ nombre: name, negocio: business, ciudad: city, email: email })
+    });
+  } catch (e) { console.error(e); }
+  setSending(false);
+  setSent(true);
+};
 
   const facts = [
     { icon: "🤖", text: "<strong style='color:#F5C842'>ChatGPT, Gemini y Perplexity</strong> recomiendan negocios basándose en reseñas públicas de Google. Si no tienes suficientes reseñas recientes, simplemente no existes para la inteligencia artificial.", delay: 100 },
