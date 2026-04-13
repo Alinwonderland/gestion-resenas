@@ -106,7 +106,7 @@ const handleSubmit = async () => {
       {/* NAV */}
       <nav style={{ position:"relative", zIndex:10, padding:"24px 40px", display:"flex", justifyContent:"space-between", alignItems:"center", borderBottom:"1px solid rgba(255,255,255,0.04)" }}>
         <div style={{ fontFamily:"'Fraunces', Georgia, serif", fontSize:"18px", fontWeight:"800", letterSpacing:"-0.02em" }}>
-          Gestiónde<span style={{ color:"#F5C842" }}>Reseñas</span>.com
+          Gestión<span style={{ color:"#F5C842" }}>Reseñas</span>.com
         </div>
         <div style={{ fontSize:"12px", color:"#4B5563", letterSpacing:"0.08em", textTransform:"uppercase" }}>
           Reputación digital para negocios
@@ -293,10 +293,10 @@ const handleSubmit = async () => {
       {/* FOOTER */}
       <footer style={{ position:"relative", zIndex:10, borderTop:"1px solid rgba(255,255,255,0.04)", padding:"32px 40px", display:"flex", justifyContent:"space-between", alignItems:"center", flexWrap:"wrap", gap:"16px" }}>
         <div style={{ fontFamily:"'Fraunces', Georgia, serif", fontSize:"15px", fontWeight:"800" }}>
-          Gestiónde<span style={{ color:"#F5C842" }}>Reseñas</span>.com
+          Gestión<span style={{ color:"#F5C842" }}>Reseñas</span>.com
         </div>
         <div style={{ fontSize:"12px", color:"#374151" }}>
-          © 2026 · GestióndeReseñas.com · hola@gestiondereseñas.com
+          © 2026 · GestiónReseñas.com · hola@gestionreseñas.com
         </div>
       </footer>
     </div>
